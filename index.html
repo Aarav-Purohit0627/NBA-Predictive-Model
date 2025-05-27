@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Winner Predictor</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #7c7c7c;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        label, select, button {
+            font-size: 18px;
+            margin: 10px;
+        }
+        .team-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .team {
+            width: 40%;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+            border-radius: 10px;
+            margin: 0 20px;
+        }
+        .players {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .winner {
+            margin-top: 30px;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: "Georgia", serif;
+            color: #333;
+        }
+        .stats-container {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            font-size: 20px;
+        }
+        .stats {
+            text-align: center;
+            padding: 10px;
+            width: 40%;
+        }
+        .stats h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>NBA Winner Predictor</h1>
+    <form method="POST">
+        <label for="team_A">Team A:</label>
+        <select name="team_A" id="team_A" required>
+            {% for team in teams %}
+                <option value="{{ team }}">{{ team }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="team_B">Team B:</label>
+        <select name="team_B" id="team_B" required>
+            {% for team in teams %}
+                <option value="{{ team }}">{{ team }}</option>
+            {% endfor %}
+        </select>
+
+        <button type="submit">Predict Winner</button>
+    </form>
+
+    {% if prediction %}
+        <div class="team-container">
+            <div class="team" style="background-color: {{ team_A_color }}">
+                {{ team_A }}
+                <div class="players">
+                    {% for player, ppg in team_A_players %}
+                        {{ player }} - {{ ppg }} PPG<br>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="team" style="background-color: {{ team_B_color }}">
+                {{ team_B }}
+                <div class="players">
+                    {% for player, ppg in team_B_players %}
+                        {{ player }} - {{ ppg }} PPG<br>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="winner">
+            {{ prediction }}
+        </div>
+
+        <div class="stats-container">
+            <div class="stats">
+                <h2>{{ team_A }} Advanced Stats</h2>
+                <p>Offensive Rating: {{ off_rating_A }}</p>
+                <p>Defensive Rating: {{ def_rating_A }}</p>
+                <p>Win Percentage: {{ win_perc_A }}</p>
+                <p>Home Advantage: {{ home_adv_A }}</p>
+            </div>
+            
+            <div class="stats">
+                <h2>{{ team_B }} Advanced Stats</h2>
+                <p>Offensive Rating: {{ off_rating_B }}</p>
+                <p>Defensive Rating: {{ def_rating_B }}</p>
+                <p>Win Percentage: {{ win_perc_B }}</p>
+                <p>Home Advantage: {{ home_adv_B }}</p>
+            </div>
+        </div>
+    {% endif %}
+</body>
+</html>

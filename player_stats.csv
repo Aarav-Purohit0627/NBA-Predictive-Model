@@ -1,0 +1,151 @@
+Team,Player,Avg_Points
+Atlanta Hawks,	Trae Young,	25.0
+Atlanta Hawks,	Dyson Daniels,	12.5
+Atlanta Hawks,	Zaccharie Risacher,	14.3
+Atlanta Hawks,	Mouhamed Gueye,	10.1
+Atlanta Hawks,	Onyeka Okongwu,	11.8
+Boston Celtics,	Derrick White,	15.2
+Boston Celtics,	Jrue Holiday,	17.1
+Boston Celtics,	Jaylen Brown,	22.8
+Boston Celtics,	Jayson Tatum,	28.4
+Boston Celtics,	Kristaps Porzingis,	20.3
+Brooklyn Nets,	D'Angelo Russell,	18.6
+Brooklyn Nets,	Keyonte Johnson,	13.2
+Brooklyn Nets,	Ziaire Williams,	11.4
+Brooklyn Nets,	Cameron Johnson,	16.7
+Brooklyn Nets,	Nic Claxton,	12.0
+Charlotte Hornets,	LaMelo Ball,	23.5
+Charlotte Hornets,	Josh Green,	10.9
+Charlotte Hornets,	DaQuan Jeffries,	9.8
+Charlotte Hornets,	Miles Bridges,	19.2
+Charlotte Hornets,	Mark Williams,	11.3
+Chicago Bulls,	Tyus Jones,	13.0
+Chicago Bulls,	Coby White,	14.5
+Chicago Bulls,	Josh Giddey,	16.2
+Chicago Bulls,	Matas Buzelis,	12.7
+Chicago Bulls,	Nikola Vucevic,	17.9
+Cleveland Cavaliers,	Darius Garland,	21.1
+Cleveland Cavaliers,	Donovan Mitchell,	26.4
+Cleveland Cavaliers,	Max Strus,	11.9
+Cleveland Cavaliers,	Evan Mobley,	16.8
+Cleveland Cavaliers,	Jarrett Allen,	14.0
+Dallas Mavericks,	Luka Doncic,	29.7
+Dallas Mavericks,	Kyrie Irving,	24.6
+Dallas Mavericks,	Tim Hardaway Jr.,	14.1
+Dallas Mavericks,	Grant Williams,	9.3
+Dallas Mavericks,	Dereck Lively II,	8.5
+Denver Nuggets,	Jamal Murray,	20.0
+Denver Nuggets,	Kentavious Caldwell-Pope,	11.0
+Denver Nuggets,	Michael Porter Jr.,	17.5
+Denver Nuggets,	Aaron Gordon,	15.3
+Denver Nuggets,	Nikola Jokić,	27.1
+Detroit Pistons,	Cade Cunningham,	22.0
+Detroit Pistons,	Jaden Ivey,	16.0
+Detroit Pistons,	Bojan Bogdanovic,	18.4
+Detroit Pistons,	Isaiah Stewart,	12.2
+Detroit Pistons,	Jalen Duren,	10.5
+Golden State Warriors,	Stephen Curry,	28.9
+Golden State Warriors,	Moses Moody,	13.7
+Golden State Warriors,	Jimmy Butler,	21.6
+Golden State Warriors,	Draymond Green,	8.2
+Golden State Warriors,	Kevon Looney,	7.5
+Houston Rockets,	Jalen Green,	22.3
+Houston Rockets,	Kevin Porter Jr.,	18.0
+Houston Rockets,	Dillon Brooks,	14.0
+Houston Rockets,	Jabari Smith Jr.,	13.5
+Houston Rockets,	Alperen Sengun,	16.9
+Indiana Pacers,	Tyrese Haliburton,	20.5
+Indiana Pacers,	Bennedict Mathurin,	17.0
+Indiana Pacers,	Buddy Hield,	16.2
+Indiana Pacers,	Obi Toppin,	12.0
+Indiana Pacers,	Myles Turner,	15.1
+Los Angeles Clippers,	Russell Westbrook,	15.8
+Los Angeles Clippers,	Paul George,	23.4
+Los Angeles Clippers,	Kawhi Leonard,	25.2
+Los Angeles Clippers,	Marcus Morris Sr.,	10.0
+Los Angeles Clippers,	Ivica Zubac,	10.9
+Los Angeles Lakers,	D'Angelo Russell,	17.5
+Los Angeles Lakers,	Austin Reaves,	14.8
+Los Angeles Lakers,	LeBron James,	26.5
+Los Angeles Lakers,	Anthony Davis,	31.8
+Los Angeles Lakers,	Jarred Vanderbilt,	7.2
+Memphis Grizzlies,	Ja Morant,	27.0
+Memphis Grizzlies,	Desmond Bane,	21.0
+Memphis Grizzlies,	Luke Kennard,	12.3
+Memphis Grizzlies,	Jaren Jackson Jr.,	18.9
+Memphis Grizzlies,	Steven Adams,	8.9
+Miami Heat,	Kyle Lowry,	12.0
+Miami Heat,	Tyler Herro,	20.1
+Miami Heat,	Jimmy Butler,	21.6
+Miami Heat,	Kevin Love,	8.5
+Miami Heat,	Bam Adebayo,	19.4
+Milwaukee Bucks,	Damian Lillard,	28.0
+Milwaukee Bucks,	Malik Beasley,	11.2
+Milwaukee Bucks,	Khris Middleton,	19.0
+Milwaukee Bucks,	Giannis Antetokounmpo,	29.5
+Milwaukee Bucks,	Brook Lopez,	15.0
+Minnesota Timberwolves,	Mike Conley,	11.0
+Minnesota Timberwolves,	Anthony Edwards,	25.0
+Minnesota Timberwolves,	Jaden McDaniels,	12.0
+Minnesota Timberwolves,	Karl-Anthony Towns,	24.0
+Minnesota Timberwolves,	Rudy Gobert,	13.0
+New Orleans Pelicans,	CJ McCollum,	21.0
+New Orleans Pelicans,	Brandon Ingram,	23.0
+New Orleans Pelicans,	Herb Jones,	10.0
+New Orleans Pelicans,	Zion Williamson,	26.0
+New Orleans Pelicans,	Jonas Valanciunas,	14.0
+New York Knicks,	Jalen Brunson,	25.5
+New York Knicks,	Quentin Grimes,	11.2
+New York Knicks,	RJ Barrett,	19.0
+New York Knicks,	Julius Randle,	22.1
+New York Knicks,	Karl-Anthony Towns,	24.3
+Oklahoma City Thunder,	Shai Gilgeous-Alexander,	33.0
+Oklahoma City Thunder,	Josh Giddey,	16.2
+Oklahoma City Thunder,	Luguentz Dort,	14.3
+Oklahoma City Thunder,	Chet Holmgren,	15.5
+Oklahoma City Thunder,	Jalen Williams,	13.7
+Orlando Magic,	Markelle Fultz,	14.1
+Orlando Magic,	Jett Howard,	12.0
+Orlando Magic,	Franz Wagner,	18.9
+Orlando Magic,	Paolo Banchero,	21.7
+Orlando Magic,	Wendell Carter Jr.,	15.0
+Philadelphia 76ers,	Tyrese Maxey,	31.5
+Philadelphia 76ers,	Kelly Oubre Jr.,	19.2
+Philadelphia 76ers,	Tobias Harris,	18.7
+Philadelphia 76ers,	P.J. Tucker,	3.5
+Philadelphia 76ers,	Joel Embiid,	29.8
+Phoenix Suns,	Devin Booker,	27.4
+Phoenix Suns,	Ryan Dunn,	6.5
+Phoenix Suns,	Kevin Durant,	26.1
+Phoenix Suns,	Mason Plumlee,	4.3
+Phoenix Suns,	Jusuf Nurkic,	8.8
+Portland Trail Blazers,	Scoot Henderson,	17.0
+Portland Trail Blazers,	Anfernee Simons,	22.3
+Portland Trail Blazers,	Matisse Thybulle,	7.0
+Portland Trail Blazers,	Jerami Grant,	20.5
+Portland Trail Blazers,	Deandre Ayton,	16.7
+Sacramento Kings,	De'Aaron Fox,	26.2
+Sacramento Kings,	Kevin Huerter,	15.4
+Sacramento Kings,	Harrison Barnes,	14.8
+Sacramento Kings,	Keegan Murray,	13.9
+Sacramento Kings,	Domantas Sabonis,	19.1
+San Antonio Spurs,	Tre Jones,	12.5
+San Antonio Spurs,	Devin Vassell,	18.0
+San Antonio Spurs,	Keldon Johnson,	21.0
+San Antonio Spurs,	Victor Wembanyama,	20.2
+San Antonio Spurs,	Zach Collins,	11.0
+Toronto Raptors,	Dennis Schröder,	14.3
+Toronto Raptors,	O.G. Anunoby,	17.6
+Toronto Raptors,	Scottie Barnes,	19.5
+Toronto Raptors,	Pascal Siakam,	22.4
+Toronto Raptors,	Jakob Poeltl,	12.1
+Utah Jazz,	Jordan Clarkson,	20.0
+Utah Jazz,	Collin Sexton,	14.8
+Utah Jazz,	Lauri Markkanen,	25.1
+Utah Jazz,	John Collins,	13.2
+Utah Jazz,	Walker Kessler,	11.5
+Washington Wizards,	Tyus Jones,	13.0
+Washington Wizards,	Jordan Poole,	21.3
+Washington Wizards,	Deni Avdija,	10.4
+Washington Wizards,	Kyle Kuzma,	22.0
+Washington Wizards,	Daniel Gafford,	9.5
